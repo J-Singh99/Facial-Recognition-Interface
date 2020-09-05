@@ -1888,7 +1888,7 @@
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		width: 100%;
 	}
 
@@ -2917,7 +2917,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner.jpg);
+		background-image: url(images/banner.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
