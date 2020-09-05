@@ -1,3 +1,5 @@
 ID,Name,Age,Gender,Number,Balance,FileName
-1,Jaspreet Singh,21,M,1234567890,696969,Training Folder/Jaspreet.jpeg
-5,Ben Affleck,37,F,3245879456,516846,Training Folder/Ben.jpg
+1,J,23,M,123,234,Training Folder/Jaspreet.jpeg
+ID,Name,Age,Gender,Number,Balance,FileName
+1,J,23,M,123,234,Training Folder/Jaspreet.jpeg
+2,Scarlet,234,M,23432,23432,Training Folder/Scarlet.jpeg
