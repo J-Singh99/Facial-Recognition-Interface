@@ -5,21 +5,36 @@ from FaceDetector.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
 
-@app.route("/")
 @app.route("/detect")
-def home():
+def about():
     return render_template('detect.html')
 
-@app.route("/")
+
 @app.route("/test")
 def test_load():
     return render_template('index.html')
 
-'''
-@app.route("/about")
-def about():
-    return render_template('about.html', title='About')
 
+@app.route("/")
+@app.route("/home")
+def home():
+    return render_template('detect.html', title='Home')
+
+
+@app.route("/model")
+def model():
+    return render_template('detect.html', title='Train Model')
+
+
+@app.route("/demo_test")
+def demo_test():
+    return render_template('detect.html', title='Demo')
+
+
+
+
+
+'''
 
 @app.route("/register", methods=['GET', 'POST'])
 def register():

@@ -16,7 +16,7 @@
 				</a>
 				
 				<nav id="nav">
-					<a href="index.html">Source Code</a>
+					<a href="https://github.com/J-Singh99/Facial-Recognition-Interface">Source Code</a>
 					<a href="generic.html">Test Camera Feature</a>
 					<a href="elements.html">Live Test</a>
 				</nav>
@@ -75,7 +75,7 @@
 						</header>
 						<p>Upload image to train the model any number of persons.</p>
 						<footer>
-							<a href="#" class="button">Train Model</a>
+							<a href="{{ url_for('model') }}" class="button">Train Model</a>
 						</footer>
 					</article>
 					<article>
@@ -87,7 +87,7 @@
 						</header>
 						<p>Try a demo version trained on the faces of Elon Musk, Ben Affleck and Obama</p>
 						<footer>
-							<a href="#" class="button">Learn More</a>
+							<a href="{{ url_for('demo_test') }}" class="button">Try Demo</a>
 						</footer>
 					</article>
 				</div>
