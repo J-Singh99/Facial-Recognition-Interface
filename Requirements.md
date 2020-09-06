@@ -4,5 +4,5 @@
 -> !pip install numpy     (https://pypi.org/project/numpy/)  
   
   
-**NOTE:** _dlib_ is a package that supports the _face_recognition_ package, so it is essential to install dlib first, and then face_recognition
+**NOTE:** _dlib_ is a package that supports the _face_recognition_ package, so it is essential to install dlib first, and then face_recognition.  
 **NOTE:** _dlib_ installation is different for every OS, hance a standard Requirements file was not possible.
