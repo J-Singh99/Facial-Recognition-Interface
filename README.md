@@ -42,11 +42,14 @@ Here, we simulate a very natural way of shopping
 -> **PeoplesList.csv** is a generated file that records the info of whoever the model has recognised, thereby simulating multitudes of scopes for this project.  
   
   
-## Usage
+## Usage  
+**_NOTE_ :** Press **Q** to exit the camera interface!
 You can opt for either pre-built or custom Users, and pre-built or custom bills. This gives you a total of 4 operational modes.  
 There are plenty of on screen instructions (CONSOLE OUTPUTS) that will guide you along the way.  
 A CSV file is generated at the end.  
-  
+ 
+Hint:  
+Opt for prebuilt User DB and prebuilt Billing systems. Try holding up a photo of Elon Musk to check out what he shopped at our store.
   
 # Contact Us
 **Jaspreet Singh**  
