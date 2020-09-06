@@ -3,14 +3,29 @@ import cv2
 import numpy as np
 from csv import writer
 from csv import DictWriter
-import DataStore
+import PrebuiltBill
 
-db = DataStore.DB
+
+db, bill = 0, PrebuiltBill.BILL
+
+print("If you want to use a prebuilt model, type in 'Y'.")
+print("The model is trained on Obama, Elon Musk, Scarlet Johansen, and The Creator!")
+a = input()
+if a == 'Y':
+    import PrebuiltDB
+    db = PrebuiltDB.DB
+    print('Importing data from pre-built model...')
+else:
+    import DataStore
+    db = DataStore.DB
+
 n = len(db)
 
 
+
+# Preparing CSV file for people spotted on the camera
 field_names = ['ID', 'Name', 'Age', 'Gender', 'Number', 'Balance', 'FileName']
-file_name = 'PeopleSpotted.csv'
+file_name = 'PeoplesList.csv'
 
 with open(file_name, 'a+', newline='') as write_obj:
     csv_writer = writer(write_obj)
@@ -26,13 +41,14 @@ def HandleFace(name):
 
 
 
+# What to do if a face is spotted
 checklist = [False]*n
 BigCheck = True
-
 def ExtractInfo(mathes):
     if not False in checklist: BigCheck = False
         
-    if not True in matches: print('Unknown')
+    if not True in matches: 
+        pass #print('Unknown')
     else:
         for i in range(n):
             if (checklist[i] == False) and (matches[i] == True):
@@ -41,7 +57,7 @@ def ExtractInfo(mathes):
 
 
 
-
+# Preparing the data to be manipulated
 known_face_encodings = []
 known_face_names =[]
 
@@ -57,7 +73,7 @@ for j in db:
 
 
 
-# Initialize these variables to pre allot space
+# Initialize these variables to pre-allot space
 face_encodings, face_locations, face_names, process_this_frame = [], [], [], True
 
 # Run loop to capture and give output
