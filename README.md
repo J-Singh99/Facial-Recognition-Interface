@@ -50,6 +50,8 @@ Here, we simulate a very natural way of shopping
 
 -> **PeoplesList.csv** is a generated file that records the info of whoever the model has recognised, thereby simulating multitudes of scopes for this project.
 
+\n
+\n
 
 ## Usage
 You can opt for either pre-built or custom Users, and pre-built or custom bills. This gives you a total of 4 operational modes.
