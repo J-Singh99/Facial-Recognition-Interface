@@ -150,3 +150,6 @@ def FinalBilling(checklist):
 
 # Printing the Bill
 FinalBilling(checklist)
+
+print('You can check out who came into the store using the "PeoplesList" file generated.')
+print('It gives all the information stored about the person.')

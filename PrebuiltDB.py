@@ -12,12 +12,12 @@ Entry1 = {
 
 Entry2 = {
     "ID":2,
-    "Name": "Ashish Adhikari",
-    "Age": 23,
+    "Name": "Shah Rukh Khan",
+    "Age": 54,
     "Gender": 'M',
     "Number": 9517599874,
     "Balance": 12345,
-    "FileName":"Training Folder/Ashish.jpeg"
+    "FileName":"Training Folder/SRK.jpg"
 }
 
 Entry3 = {
@@ -57,10 +57,11 @@ Entry6 = {
     "Gender": 'F',
     "Number": 989456,
     "Balance": 36846,
-    "FileName":"Training Folder/Sacrlet.jpeg"
+    "FileName":"Training Folder/Scarlet.jpeg"
 }
 DB[1] = Entry1
 DB[2] = Entry2
 DB[3] = Entry3
 DB[4] = Entry4
 DB[5] = Entry5
+DB[6] = Entry6
