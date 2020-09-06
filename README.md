@@ -2,7 +2,8 @@
 ### Shop easily and safely, without the requirement of a cashier  
   
 Link to [Presentation](https://docs.google.com/presentation/d/1FtLTmS5Rl8KSzhiQJZQFLYIg77T_SDIqFU6Do7vkLDE/edit?usp=sharing).  
-  
+Link to [Video](https://drive.google.com/file/d/1pGRp5b3eQv74IZ-gCo7bmN9it4HqPXgF/view?usp=sharing).  
+    
 Our project is a simple, yet intuitive system which deploys ML models to recognise faces of people.
 What makes it stand out is, it requires only **ONE** image to train the model.  
   
