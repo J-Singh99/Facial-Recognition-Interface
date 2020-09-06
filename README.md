@@ -13,13 +13,19 @@ The difference in our project is, with our model, a person can just walk into a 
 
 ### Assumptions/Requirements:
 -> The person has an E-Commerce account (eg. Amazon, GPay, etc.)
+
 -> The store has RFID readers that can scan item as they pass through them
+
 -> The store has **at least** one camera
 
 ### How our model works (simplified):
 Here, we simulate a very natural way of shopping
+
 -> A person walks into the store
+
 -> One of the cameras reocgnise the face, using ML models in the backend
+
 -> Once the person is recognised, any relevant information stored about the shopper (his account ballance, in our case), is retrieved
+
 -> When the person leaves the store, RFID scanners pick up information on all the products that have been purchased and generate a bill
 -> Once we process the amount, we automatically subtract it from the person's associated account, or flag a warning in case there is ome discrepancy
