@@ -29,3 +29,10 @@ Here, we simulate a very natural way of shopping
 
 -> When the person leaves the store, RFID scanners pick up information on all the products that have been purchased and generate a bill
 -> Once we process the amount, we automatically subtract it from the person's associated account, or flag a warning in case there is ome discrepancy
+
+
+## Files and Info
+
+**_NOTE_ :** Requirements.txt has to be opened and installed manually. IT IS NOT AN AUTORUN FILE!!
+
+Our main file is **Base.py** [_Base Tester.ipynb_ more for debugging, and easy UI applications]
