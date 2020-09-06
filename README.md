@@ -1,1 +1,3 @@
-# **Contact Less Shopping**
+# **Zero Contact Shopping**
+### Shop easily and safely, without the requirement of a cashier
+
